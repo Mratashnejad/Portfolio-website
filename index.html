@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css"/>
+    <link rel = "stylesheet" href="mediaqueries.css"/>
+    <title>Portfolio</title>
+</head>
+<body>
+  
+<nav id="desktop-nav">
+    <div class="logo">Alireza Atashnejad</div>
+    <div>
+        <ui class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experiance">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ui>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Alireza Atashnejad</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experiance" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ui>
+        </div>
+    </div>
+</nav>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Alireza Atashnejad Profile Picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text_p1">Hello I'm</p>
+        <h1 class="title">alireza atashnejad</h1>
+        <p class="section__text_p2">FullStack Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+            Download Cv
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+    </button>
+        </div>
+          <div id="social-container">
+              <img src="./assets/linkedin.png" alt="my linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/alirezaatashnejad/'">
+              <img
+              src="./assets/Github.jpg"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/mratashnejad'"
+              />
+              <img
+              src="./assets/Kaggle.png"
+              alt="My Kaggle"
+              class="icon"
+              onclick="location.href='https://Kaggle.com/alirezaatashnejad'"
+              />
+              <img
+              src="./assets/Upwork.png"
+              alt="My upwork"
+              class="icon"
+              onclick="location.href='https://www.upwork.com/freelancers/~01033fb9f1d60faaf0'"
+            />
+            <img
+              src="./assets/StackOwerFlow.png"
+              alt="StackOwerFlow"
+              class="icon"
+              onclick="location.href='https://www.StackOwerFlow.com/alirezaatashnejad'"
+            />
+          </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section__text_p1">Get to know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+            <img src="./assets//about-pic.png" alt="Profile picture" class="about-pic"/>
+      </div>
+      <div class="about-details-container">
+        <class="text-container">
+            <br>
+              🚀 Experience Matters:
+              Embark on a journey with me through a dynamic landscape of digital expertise.<br/> With over 2 years of hands-on experience in Frontend Development, 5 years mastering the intricacies of Backend Development, and an additional 2 years dedicated to crafting intelligent Machine Learning models, my passion for technology knows no bounds.
+              <br/>
+              🌐 Frontend Finesse:
+              Explore the visually captivating world of frontend development where every pixel tells a story. With a wealth of knowledge amassed over 2 years, I bring a keen eye for design and functionality to create seamless user experiences.
+              <br/>
+              💻 Backend Brilliance:
+              Dive into the robust realm of backend development, where I've honed my skills for over 5 years. From architecting scalable systems to ensuring optimal performance, I bring a wealth of expertise to the digital infrastructure.
+              <br/>
+              🤖 Machine Learning Mastery:
+              Delve into the future with me as a Machine Learning Model Programmer, having spent 2 years at the cutting edge of artificial intelligence. Witness the magic of intelligent algorithms and predictive modeling.
+            </p>
+        </div>
+    </div>
+  </div>
+</section>
+<section id="experiance">
+    <p class="section__text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                        <div>
+                            <h3>Python</h3>
+                                <p> Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                        <div>
+                            <h3>Django</h3>
+                                <p> Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                        <div>
+                            <h3>NodeJs</h3>
+                                <p> Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                        <div>
+                            <h3>Rest API</h3>
+                                <p> Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Applications & DataBase</h2>
+              <div class="article-container">
+
+              <article>
+                  <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                  <div>
+                      <h3>SQL</h3>
+                          <p> Experienced</p>
+                  </div>
+              </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                  <div>
+                      <h3>MongoDB</h3>
+                          <p> Experienced</p>
+                  </div>
+              </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                  <div>
+                      <h3>ProgSql</h3>
+                          <p> Experienced</p>
+                  </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                <div>
+                    <h3>Jenkins</h3>
+                        <p> Experienced</p>
+                </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+              <div>
+                  <h3>Docker</h3>
+                      <p> Experienced</p>
+              </div>
+          </article>
+              </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                <div>
+                    <h3>HTML</h3>
+                        <p> Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                <div>
+                    <h3>CSS & Sass</h3>
+                        <p> Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                <div>
+                    <h3>JavaScript</h3>
+                        <p> Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                <div>
+                    <h3>React.js</h3>
+                        <p> Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="experiance icon" class="icon">
+                <div>
+                    <h3>Next.js</h3>
+                        <p> Experienced</p>
+                </div>
+            </article>
+            </div>
+        </div>
+            
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </div>
+</section>
+<section id="projects">
+    <p class="section__text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-3.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+        <div class="nav-links-container">
+            <ui class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiance">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ui>
+        </div>
+    </nav>
+    <p> Copyright &#169 2024 Alireza Atashnejad . All Rights reserved.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
