@@ -10,22 +10,11 @@
 }
 body {
     background: #12141d;
-    color: #999;
+    color:#666;
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
   }
-  .mycooldiv {
-    width: 400px;
-    height: 300px;
-    margin: 2% auto;
-    border-radius: 100%;
-  }
-  .red {
-    background: red
-  }
-  .blue {
-    background: blue
-  }
+  
   .yellow {
     background: yellow
   }
@@ -36,6 +25,24 @@ body {
     box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .7);
   }
 
+#typewriting{
+    color :whitesmoke;
+    font-weight: bold;
+    position: relative;
+  }
+#cursor{
+    color: whitesmoke;
+    animation: blink 1s linear infinite;
+  }
+@keyframes blink {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    
+  }
 
 html{
     scroll-behavior: smooth;
@@ -57,11 +64,11 @@ nav,
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 14vh;
 
 }
 .nav-links{
-    gap:2rem;
+    gap:1rem;
     list-style: none;
     font-size: 1.5rem;
 }
@@ -73,7 +80,7 @@ a{
 }
 
 a:hover{
-    color:rgb(220, 203, 57);
+    color:yellow;
     text-decoration:none;
 }
 
@@ -162,60 +169,66 @@ a:hover{
 
 /* sections  */
 section{
-    padding-top:4vh;
+    padding-top:10vh;
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
 .section-container{
-    display: flex;
+    display:flex;
 }
 #profile{
-    display: flex;
-    justify-content: center;
-    gap:4rem;
+    position:static;
+    display:flex;
+    justify-content:center;
+    gap:2rem;
     height: 80vh;
 }
 .section__pic-container{
-    border-radius:10%;
-    display: flex;
-    height: 400px;
+    
+    display:flex;
     width: 400px;
     margin: auto 0;
 }
 
 .section__text{
-    align-self: center;
+    position: static;
     text-align: center;
+}
 
+.sextion_text h1{
+    position:relative;
+    left: 100%;
 }
 .section__text p {
-    font-weight: 600;
+    font-weight: 600px;
 }
 .section__text_p1{
-    text-align: center;
+    text-align: left;
 }
 .section__text_p1{
-    font-size: 1.75rem;
-    margin-bottom:1rem;
+    font-size: 3.5rem;
+    margin-bottom:0rem;
 }
 .section__text_p2 {
-    font-size: 1.75rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
   }
 .title{
     font-size:3rem;
-    text-align: center;
+    text-align: left;
 }
 
 /* social */
 #social-container{
     display: flex;
     justify-content: center;
-    margin-top: 13rem;
-    gap:3.5rem;
-
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform: translateX(-50%);
+    gap:2rem;
 }
 
 /* icons */
@@ -236,9 +249,9 @@ section{
 
     font-weight: 200;
     transition: all 200ms ease-in-out;
-    padding:0.2rem;
-    width:6rem;
-    border-radius: 0.01rem;
+    padding:1rem;
+    width:8rem;
+    border-radius: 0.1rem;
 }
 
 .btn-color-1,
